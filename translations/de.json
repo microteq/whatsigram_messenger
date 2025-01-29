@@ -1,0 +1,41 @@
+{
+    "title": "Whatsigram Messenger",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Whatsigram Empfänger hinzufügen",
+                "data": {
+                    "name": "Name oder Telefonnummer des Empfängers",
+                    "url": "Die von CallMeBot erhaltene URL"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Whatsigram Empfänger konfigurieren",
+                "data": {
+                    "name": "Name oder Telefonnummer des Empfängers",
+                    "url": "Die von CallMeBot erhaltene URL"
+                }
+
+            }
+        }
+    },
+    "device": {
+        "whatsigram_messenger": {
+            "name": "Whatsigram Messenger"
+        }
+    },
+    "entity": {
+        "notify": {
+            "name": {
+                "name": "Name oder Telefonnummer des Empfängers"
+            },
+            "url": {
+                "name": "Die von CallMeBot erhaltene URL"
+            }
+        }
+    }
+}
