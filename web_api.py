@@ -7,10 +7,19 @@ from urllib.parse import quote_plus
 import aiohttp
 from aiohttp import ClientTimeout
 
-from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 
-from .const import CONF_URL
+from .const import (
+    ERROR_CONNECTION_FAILED,
+    ERROR_INVALID_KEY,
+    ERROR_NO_RECIPIENT,
+    ERROR_NO_TEXT,
+    ERROR_PAGE_NOT_FOUND,
+    ERROR_PERMISSION_DENIED,
+    ERROR_TEMP_UNAVAILABLE,
+    ERROR_UNKNOWN,
+    ERROR_WRONG_PARAMETER,
+)
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -32,27 +41,11 @@ class WebAPI:
 
 
     # ***********************************************************************************************************************************************
-    # Purpose:  Test connection
-    # History:  D.Geisenhoff    24-OCT-2024     Created
-    # ***********************************************************************************************************************************************
-    # async def test_connection(self) -> bool:
-    #     try:
-    #         async with self.session.get(
-    #             f"http://{self.host}/cm?cmnd=Status%200",
-    #             timeout=ClientTimeout(connect=3),
-    #         ) as response:
-    #             return response.status == 200
-    #     except aiohttp.ClientError:
-    #         return False
-
-
-    # ***********************************************************************************************************************************************
     # Purpose:  Send a message
     # History:  D.Geisenhoff    29-JAN-2025     Created
     # ***********************************************************************************************************************************************
-    async def send_message(self, message: str, entry: ConfigEntry) -> None:
+    async def send_message(self, message: str, url: str) -> str:
         """Send a message using the provided configuration entry."""
-        url = entry.data[CONF_URL]
         url_with_message = url
         position = url.lower().find("&text=")
         if position != -1:
@@ -63,17 +56,53 @@ class WebAPI:
                 url_with_message += url[position_amp:]
         async with aiohttp.ClientSession() as session:
             try:
-                for _ in range(10):
+                for i in range(11):
                     async with session.get(url_with_message, timeout=ClientTimeout(connect=3)) as response:
                         if response.status == 200:
-                            break
+                            content = await response.text()
+                            content = content.lower()
+                            # Signal:Message sent, Whatsapp: Message queued, Telegram: Successful
+                            if "message sent" in content or "message queued" in content or "successful" in content:
+                                break
+                            if "no user specified" in content:
+                               # Telegram: no user specified
+                                _LOGGER.error("No recipient has been specified.")
+                                return ERROR_NO_RECIPIENT
+                            if "no text specified" in content or "text/image parameter is missing" in content:
+                               # No text specified
+                                _LOGGER.error("No text has been specified.")
+                                return ERROR_NO_TEXT
+                            if "apikey is invalid" in content:
+                               # Signal: Invalid API key
+                                _LOGGER.error("Invalid API key.")
+                                return ERROR_INVALID_KEY
+                            if "permission denied" in content:
+                               # Telegram: user permission denied
+                                _LOGGER.error("Permission denied. You need to authorize CallMeBot to contact this user.")
+                                return ERROR_PERMISSION_DENIED
+                            return ERROR_UNKNOWN
                         if response.status == 503:
                             # Wait if service is not available (CallMeBot does not allow too many messages at a time)
+                            if i == 11:
+                                _LOGGER.error("CallMeBot service temporary not availavle / timeout")
+                                return ERROR_TEMP_UNAVAILABLE
                             await asyncio.sleep(10)
+                        elif response.status == 201:
+                            # Whatsapp: invalid API key
+                            _LOGGER.error("Invalid or no recipient, or no text specified")
+                            return ERROR_WRONG_PARAMETER
+                        elif response.status == 203:
+                            # Whatsapp: invalid API key
+                            _LOGGER.error("Invalid API key or recipient")
+                            return ERROR_WRONG_PARAMETER
+                        elif response.status == 404:
+                            # CallMeBot page not found
+                            _LOGGER.error("Page not found")
+                            return ERROR_PAGE_NOT_FOUND
                         else:
-                            _LOGGER.error("Invalid Web API command: %s", url_with_message)
-                            return "invalid"
+                            _LOGGER.error("Unknown error")
+                            return ERROR_UNKNOWN
             except aiohttp.ClientError as err:
-                _LOGGER.warning("Unable to connect to the CallMeBot service: %s", err)
-                return "error"
+                _LOGGER.error("Unable to connect to the CallMeBot service: %s", err)
+                return ERROR_CONNECTION_FAILED
         return "ok"

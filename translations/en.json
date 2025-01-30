@@ -6,21 +6,51 @@
                 "title": "Add Whatsigram recipient",
                 "data": {
                     "name": "Name or phone number of recipient",
-                    "url": "URL you have received from CallMeBot"
+                    "url": "URL you have received from CallMeBot",
+                    "test_connection": "Send a test message"
                 }
             }
+        },
+        "error": 
+        {
+            "503": "The CallMeBot service is temporarily unavailable",
+            "unknown": "Unexpected error",
+            "connection_error": "Unable to connect to the CallMeBot service",
+            "permission_denied": "CallMeBot does not have permission to send messages to this user",
+            "invalid_url": "The URL is invalid",
+            "invalid_key": "The API key is invalid",
+            "no_recipient": "No recipient specified.",
+            "no_text": "No text specified.",
+            "wrong_parameter": "Incorrect or missing parameters in the URL",
+            "404": "The page was not found"        
         }
     },
-    "options": {
-        "step": {
+    "options": 
+    {
+        "step": 
+        {
             "init": {
                 "title": "Configure Whatsigram recipient",
                 "data": {
                     "name": "Name or phone number of recipient",
-                    "url": "URL you have received from CallMeBot"
+                    "url": "URL you have received from CallMeBot",
+                    "test_connection": "Send a test message"
                 }
 
             }
+        },
+        "error": 
+        {
+            "503": "The CallMeBot service is temporarily unavailable",
+            "unknown": "Unexpected error",
+            "connection_error": "Unable to connect to the CallMeBot service",
+            "permission_denied": "CallMeBot does not have permission to send messages to this user",
+            "invalid_url": "The URL is invalid",
+            "invalid_key": "The API key is invalid",
+            "no_recipient": "No recipient specified.",
+            "no_text": "No text specified.",
+            "wrong_parameter": "Incorrect or missing parameters in the URL",
+            "404": "The page was not found"        
         }
     },
     "device": {

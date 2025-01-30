@@ -6,9 +6,23 @@
                 "title": "Whatsigram Empfänger hinzufügen",
                 "data": {
                     "name": "Name oder Telefonnummer des Empfängers",
-                    "url": "Die von CallMeBot erhaltene URL"
+                    "url": "Die von CallMeBot erhaltene URL",
+                    "test_connection": "Eine testnachricht senden"
                 }
             }
+        },
+        "error": 
+        {
+            "503": "Der CallMeBot Dienst steht temporär nicht zur Verfügung",
+            "unknown": "Unerwarteter Fehler",
+            "connection_error": "Keine Verbindung zum CallMeBot Dienst möglich",
+            "permission_denied": "CallMeBot fehlt die Berechtigung, diesem Benutzer Nachrichten zu senden",
+            "invalid_url": "Die URL ist ungültig",
+            "invalid_key": "Der API Schlüssel ist ungültig",
+            "no_recipient": "Kein Empfänger angegeben.",
+            "no_text": "Kein Text angegeben.",
+            "wrong_parameter": "Falsche oder fehlende Parameter in der URL",
+            "404": "Die Seite wurde nicht gefunden"
         }
     },
     "options": {
@@ -17,10 +31,25 @@
                 "title": "Whatsigram Empfänger konfigurieren",
                 "data": {
                     "name": "Name oder Telefonnummer des Empfängers",
-                    "url": "Die von CallMeBot erhaltene URL"
+                    "url": "Die von CallMeBot erhaltene URL",
+                    "test_connection": "Eine Testnachricht senden"
+
                 }
 
             }
+        },
+        "error": 
+        {
+            "503": "Der CallMeBot Dienst steht temporär nicht zur Verfügung",
+            "unknown": "Unerwarteter Fehler",
+            "connection_error": "Keine Verbindung zum CallMeBot Dienst möglich",
+            "permission_denied": "CallMeBot fehlt die Berechtigung, diesem Benutzer Nachrichten zu senden",
+            "invalid_url": "Die URL ist ungültig",
+            "invalid_key": "Der API Schlüssel ist ungültig",
+            "no_recipient": "Kein Empfänger angegeben.",
+            "no_text": "Kein Text angegeben.",
+            "wrong_parameter": "Falsche oder fehlende Parameter in der URL",
+            "404": "Die Seite wurde nicht gefunden"
         }
     },
     "device": {

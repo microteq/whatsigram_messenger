@@ -17,7 +17,7 @@ from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.entity import Entity
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
-from .const import CONF_NAME, DOMAIN, GLOBAL_COUNTER
+from .const import CONF_NAME, CONF_URL, DOMAIN, GLOBAL_COUNTER
 
 
 # ***********************************************************************************************************************************************
@@ -70,6 +70,7 @@ class WhatsigramEntity(Entity):
         """Send a message to a recipient."""
         self.state = 'sending'
         api = self.hass.data[DOMAIN]['api']
-        await api.send_message(message, self.entry)
+        url = self.entry.data[CONF_URL]
+        await api.send_message(message, url)
         self.state = 'ready'
 

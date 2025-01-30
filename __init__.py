@@ -70,7 +70,7 @@ async def async_update_options(hass: HomeAssistant, entry: ConfigEntry) -> None:
     """Update entity name."""
     entity_reg = er.async_get(hass)
     entities = er.async_entries_for_config_entry(entity_reg, entry.entry_id)
-    entity_reg.async_update_entity(entities[0].entity_id, name=entry.data[CONF_NAME])
+    entity_reg.async_update_entity(entities[0].entity_id, name="Whatsigram " + entry.data[CONF_NAME])
 
 
 # ***********************************************************************************************************************************************
