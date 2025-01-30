@@ -7,6 +7,8 @@ The Whatsigram Messenger is an integration for Home assistant allowing you to se
 
 ### Whatsapp
 
+Please note that using the CallMeBot service sending to Whatsapp, is only free for personal use.
+
 For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/) website.
 
 ### Signal
