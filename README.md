@@ -12,7 +12,12 @@ Please note that using the CallMeBot service sending to Whatsapp, is only free f
 For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/) website.
 
 ### Signal
+
+For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) website.
+
 ### Telegram
+
+For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
 
 ## Installing the integration
 
