@@ -23,5 +23,9 @@ For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/tele
 
 ## Configuring the integration
 
+### Telegram
+
+Copy the following URL into the URL field https://api.callmebot.com/text.php?user=@myusername&text=Text and replace @yourusername with your Telegram user name.
+
 ## Using the integration
 
