@@ -12,3 +12,9 @@ For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free
 ### Signal
 ### Telegram
 
+## Installing the Whatsigram integration
+
+## Configuring the Whatsigram integration
+
+## Using the Whatsigrsm integration
+
