@@ -52,7 +52,7 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 
 ### Telegram
 
-Copy the URL `https://api.callmebot.com/text.php?user=@yourusername&text=Text` into the URL field and replace **@yourusername** with your Telegram user name.
+Copy the URL `https://api.callmebot.com/text.php?user=@myusername&text=Text` into the URL field and replace **@myusername** with your Telegram user name.
 
 
 Before submitting the form, you can tick the _Send a test message_ check box to test your url, you have entered.
