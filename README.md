@@ -37,7 +37,7 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 <br>
 ## Installation
 
-### HACS
+### HACS (recommended)
 Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.
 
 ### Manual
