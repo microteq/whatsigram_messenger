@@ -38,7 +38,8 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 ## Installation
 
 ### HACS (recommended)
-Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.
+
+<img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.">
 
 ### Manual
 Using the tool of choice open the directory (folder) for your HA configuration (where you find configuration.yaml).
