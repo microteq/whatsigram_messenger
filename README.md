@@ -51,6 +51,7 @@ This is the recommended installation method.
 - Restart Home Assistant
 <br>
 <br>
+
 ## Configuration
 
 In your Home Assistant go to _Settings_ > _Devices & services_ and click on _Add integration_. In the search field, search for _whatsigram_ and select the integration. This will add a recipient entity, you can use to send notifications to. In the name field, you can enter the recipients name or phone number or whatever you wish.
