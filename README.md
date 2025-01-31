@@ -33,11 +33,12 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 You can try sending the text **/start** to **@CallMeBot_txtbot** in your Telegram app and then send a [test message](https://www.callmebot.com/blog/telegram-text-messages-from-browser/#google_vignette) on the CallMeBot page. If then your account is still not approved for CallMeBot, you can log in via [this link](https://api2.callmebot.com/txt/login.php) and give CallMeBot permission to send you messages.
 
 For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
-
-
+<br>
+<br>
 ## Installation
 
-
+<br>
+<br>
 ## Configuration
 
 In your Home Assistant go to _Settings_ > _Devices & services_ and click on _Add integration_. In the search field, search for _whatsigram_ and select the integration. This will add a recipient entity, you can use to send notifications to. In the name field, you can enter the recipients name or phone number or whatever you wish.
@@ -53,12 +54,13 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 ### Telegram
 
 Copy the URL `https://api.callmebot.com/text.php?user=@myusername&text=Text` into the URL field and replace **@myusername** with your Telegram user name.
-
-
+<br>
+<br>
 Before submitting the form, you can tick the _Send a test message_ check box to test your url, you have entered.
 
 After having added your integration, you can add more recipients, if needed. Click on your _Whatsap Messenger integration_ and then click on _add entry_. You can add any type of recipient, whether for WhatsApp, Signal, or Telegram, as long as the recipient has prepared their mobile phone to receive CallMeBot messages.
-
+<br>
+<br>
 ## Usage
 
 The Whatsigram integration creates recipient entities to which standard notifications can be sent. In Home Assistant, sending a message is typically used as an action in an automation.
