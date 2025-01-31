@@ -51,8 +51,12 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 
 ### Telegram
 
-Copy the following URL into the URL field `**https://api.callmebot.com/text.php?user=@yourusername&text=Text**` and replace @yourusername with your Telegram user name.
+Copy the URL `https://api.callmebot.com/text.php?user=@yourusername&text=Text` into the URL field and replace **@yourusername** with your Telegram user name.
 
+
+Before submitting the form, you can tick the _Send a test message_ check box to test your url, you have entered.
+
+After having added your integration, you can add more recipients, if needed. Click on your _Whatsap Messenger integration_ and then click on _add entry_. Du kanns jede aArt Empfänger hinzufügen, sei es für Whatapp, Signal oder Telegram, solange der Empfänger sein Mobiltelefon für den Empfang von CallMeBot Nachrichen vorbereitet hat.
 
 ## Usage
 
