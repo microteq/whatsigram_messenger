@@ -89,9 +89,6 @@ If my Home Assistant integration has been helpful to you, I’d be grateful for 
 
 Thanks for considering!
 
-[![Sponsor me on GitHub](https://github.com/sponsors/microteq/button)](https://github.com/sponsors/microteq)
-
-
 [![Sponsor me on GitHub](https://img.shields.io/badge/sponsor-me%20on%20GitHub-green)](https://github.com/sponsors/microteq)
 
 
