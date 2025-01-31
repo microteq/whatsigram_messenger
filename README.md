@@ -14,7 +14,7 @@ Die Vorbereitung auf deinem Mobiltelefon ist für jede App ein wenig anders, abe
 
 The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf through CallMeBot.
 
-**Please note that using the CallMeBot service sending to Whatsapp, is only free for personal use.**
+**Please note that using the CallMeBot service sending to Whatsapp is only free for personal use.**
 
 For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/) website.
 
