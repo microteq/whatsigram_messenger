@@ -1,4 +1,4 @@
-<div style="display: inline-flex; align-items: center;">
+<div style="display: inline;">
   <img src="/assets/images/icon.png" width="32" /> 
   <h1 style="display: inline;">Your Title Here</h1>
 </div>
