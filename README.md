@@ -5,6 +5,8 @@ The Whatsigram Messenger is an integration for Home assistant allowing you to se
 
 ## Preparing your mobile phone
 
+Die Vorbereitung auf deinem Mobiltelefon ist für jede App ein wenig anders, aber immer sehr einfach zu machen. Sie dient dazu, CallMeBot zu erlauben, dir Nachrichten zu senden und deinen Account vor Spam zu schützen.
+
 ### Whatsapp
 
 Please note that using the CallMeBot service sending to Whatsapp, is only free for personal use.
@@ -13,9 +15,12 @@ For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free
 
 ### Signal
 
+
 For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) website.
 
 ### Telegram
+
+Du kannst versuchen, in deiner Telegram App den Text /start an @CallMeBot_txtbot zu senden und dann auf der CallmeBot Seite eine Testnachricht zu senden. Sollte dein Account dann noch nicht für CallMeBot freigegeben sein, dann kannst du dich über desem Link einloggen und CallMeBot damit die Erlaubnis erteilen, dir Nachrichten zu senden.
 
 For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
 
