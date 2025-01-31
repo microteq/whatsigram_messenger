@@ -54,11 +54,12 @@ class WhatsigramEntity(Entity):
         self._attr_has_entity_name = False
         self._attr_name="Whatsigram " + entry.data[CONF_NAME]
         self._attr_unique_id = f"{entry.entry_id}"
+        self._attr_icon  = "mdi:message-outline"
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, entry.entry_id)},
             manufacturer="microteq / CallMeBot",
             model="Whatsigram Messenger",
-            name = "Whatsigram " + entry.data[CONF_NAME],
+            name = "Whatsigram " + entry.data[CONF_NAME]
         )
 
 
