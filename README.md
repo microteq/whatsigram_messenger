@@ -87,6 +87,12 @@ So in your automation, click on _Add action_, then on _Notifications,_ and selec
 This integration is published under the GNU General Public License v3.0.
 <br />
 <br />
+
+## Attribution
+
+This integration uses the [CallMeBot](https://www.callmebot.com/) notification service as a foundation, which is kindly provided to the community free of charge.
+<br />
+<br />
 <br />
 <br />
 <br />
