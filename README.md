@@ -37,10 +37,10 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 <br>
 ## Installation
 
-###HACS
+### HACS
 Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.
 
-###Manual
+### Manual
 Using the tool of choice open the directory (folder) for your HA configuration (where you find configuration.yaml).
 
 Download whatsigram.zip asset from latest release
