@@ -37,9 +37,19 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 
 ## Configuration
 
+In your Home Assistant go to **Settings** > **Devices & services** and click on **Add integration**. In the search field, search for **whatsigram** and select the integration. This will add a recipient entity, you can use to send notifications to. In the name field, you can enter the recipients name or phone number or whatever you wish.
+
+### Whatsapp
+
+In the URL field, copy the exact URL as you received it from CallMeBot in response to your Whatsapp request.
+
+### Signal
+
+In the URL field, copy the exact URL as you received it from CallMeBot in response to your Signal request.
+
 ### Telegram
 
-Copy the following URL into the URL field https://api.callmebot.com/text.php?user=@myusername&text=Text and replace @yourusername with your Telegram user name.
+Copy the following URL into the URL field **https://api.callmebot.com/text.php?user=_ _@yourusername_ _&text=Text** and replace @yourusername with your Telegram user name.
 
 ## Usage
 
