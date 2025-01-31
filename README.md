@@ -1,3 +1,8 @@
+<div style="display: inline-flex; align-items: center;">
+  <img src="/assets/images/icon.png" width="32" /> 
+  <h1>Your Title Here</h1>
+</div>
+
 <img src="/assets/images/icon.png" width="32" /> 
 
 # Whatsigram Messenger: Integration for Home Assistant
