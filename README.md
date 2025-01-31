@@ -97,10 +97,12 @@ Thanks for considering!
 
 <a href="https://www.buymeacoffee.com/microteq" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-<div style="display: flex; justify-content: space-between; width: 100%; padding: 20px;">
+<div style="display: flex; justify-content: space-between; padding: 20px;">
         <button>Left Button</button>
         <button>Right Button</button>
     </div>
+
+    
 
 
 
