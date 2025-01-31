@@ -56,6 +56,7 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 Copy the URL `https://api.callmebot.com/text.php?user=@myusername&text=Text` into the URL field and replace **@myusername** with your Telegram user name.
 <br>
 <br>
+<br>
 Before submitting the form, you can tick the _Send a test message_ check box to test your url, you have entered.
 
 After having added your integration, you can add more recipients, if needed. Click on your _Whatsap Messenger integration_ and then click on _add entry_. You can add any type of recipient, whether for WhatsApp, Signal, or Telegram, as long as the recipient has prepared their mobile phone to receive CallMeBot messages.
