@@ -84,7 +84,7 @@ So in your automation, click on _Add action_, then on _Notifications,_ and selec
 
 ## License
 
-This integration is published under the GNU General Public License v3.0 license.
+This integration is published under the GNU General Public License v3.0.
 <br />
 <br />
 <br />
