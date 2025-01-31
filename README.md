@@ -42,7 +42,7 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 
 This is the recommended installation method.
 
-- Search for and install the Whatsigram Messenger from HACS
+- Search for and install the Whatsigram Messenger integration from HACS
 - Restart Home Assistant
 
 ### Manual
