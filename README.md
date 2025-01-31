@@ -13,7 +13,7 @@ Die Vorbereitung auf deinem Mobiltelefon ist für jede App ein wenig anders, abe
 - Add the phone number **+34 644 52 74 88** into your Phone Contacts. (Name it as you wish)
 - In your Whatsapp App, send the message **I allow callmebot to send me messages** to the new Contact created
 
-The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf through CallMeBot.
+The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf via CallMeBot.
 
 **Please note that using the CallMeBot service sending to Whatsapp is only free for personal use.**
 
@@ -24,7 +24,7 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 - Add the phone number **+34 644 52 74 88** into your Phone Contacts. (Name it as you wish)
 - In your Signal App, send the message **I allow callmebot to send me messages** to the new Contact created
 
-The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf through CallMeBot.
+The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf via CallMeBot.
 
 For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) website.
 
