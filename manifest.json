@@ -1,0 +1,11 @@
+{
+    "domain": "whatsigram_messenger",
+    "name": "Messenger for Whatsapp, Signal and Telegram",
+    "config_flow": true,
+    "iot_class": "local_push",
+    "documentation": "https://github.com/microteq/whatsigram_messenger",
+    "requirements": ["aiohttp"],
+    "dependencies": [],
+    "codeowners": ["@microteq"],
+    "version": "0.1.0"
+}
