@@ -50,7 +50,6 @@ This is the recommended installation method.
 - Copy the contents of custom_components into the /config/custom_components directory of your Home Assistant installation
 - Restart Home Assistant
 <br>
-<br>
 
 ## Configuration
 
