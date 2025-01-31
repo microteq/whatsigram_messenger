@@ -80,5 +80,14 @@ The Whatsigram integration creates recipient entities to which standard notifica
 
 So in your automation, click on _Add action_, then on _Notifications,_ and select the action _Send a notification message_. In the _Message_ field, enter your message, and as _Target_, click on _Choose entity_ and select one (or more) Whatsigram recipient(s). Then save your action.
 
+##Sponsorship
+
+If my Home Assistant integration has been helpful to you, I’d be grateful for your support. Sponsorship helps me keep the project going, improve features, and fix any issues that arise. Your contribution goes a long way in making the project better for everyone.
+
+Thanks for considering!
+
+[![Sponsor](https://github.com/sponsors/microteq/button)](https://github.com/sponsors/microteq)
+
+
 
 
