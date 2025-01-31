@@ -19,13 +19,13 @@ For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free
 
 For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
 
-## Installing the integration
+## Installation
 
-## Configuring the integration
+## Configuration
 
 ### Telegram
 
 Copy the following URL into the URL field https://api.callmebot.com/text.php?user=@myusername&text=Text and replace @yourusername with your Telegram user name.
 
-## Using the integration
+## Usage
 
