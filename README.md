@@ -11,18 +11,22 @@ Die Vorbereitung auf deinem Mobiltelefon ist für jede App ein wenig anders, abe
 
 Please note that using the CallMeBot service sending to Whatsapp, is only free for personal use.
 
-For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/) website.
+For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-whatsapp-messages/) website.
 
 ### Signal
 
+- Add the phone number +34 644 52 74 88 into your Phone Contacts. (Name it as you wish)
+- In your Signal App, send the message I allow callmebot to send me messages to the new Contact created
 
-For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) website.
+The bot will answer with your personal api key and an URL, you can use to send messages to yoursaelf through CallMeBot.
+
+For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/free-api-signal-send-messages/) website.
 
 ### Telegram
 
-Du kannst versuchen, in deiner Telegram App den Text /start an @CallMeBot_txtbot zu senden und dann auf der CallmeBot Seite eine Testnachricht zu senden. Sollte dein Account dann noch nicht für CallMeBot freigegeben sein, dann kannst du dich über desem Link einloggen und CallMeBot damit die Erlaubnis erteilen, dir Nachrichten zu senden.
+Du kannst versuchen, in deiner Telegram App den Text /start an @CallMeBot_txtbot zu senden und dann auf der CallmeBot Seite eine [Testnachricht zu senden](https://www.callmebot.com/blog/telegram-text-messages-from-browser/#google_vignette). Sollte dein Account dann noch nicht für CallMeBot freigegeben sein, dann kannst du dich über [desem Link](https://api2.callmebot.com/txt/login.php) einloggen und CallMeBot damit die Erlaubnis erteilen, dir Nachrichten zu senden.
 
-For details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
+For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
 
 ## Installation
 
