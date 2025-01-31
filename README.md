@@ -51,7 +51,7 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 
 ### Telegram
 
-Copy the following URL into the URL field [**https://api.callmebot.com/text.php?user=@yourusername&text=Text**] and replace @yourusername with your Telegram user name.
+Copy the following URL into the URL field **https:\/\/api.callmebot.com/text.php?user=@yourusername&text=Text** and replace @yourusername with your Telegram user name.
 
 
 ## Usage
