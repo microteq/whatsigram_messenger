@@ -61,4 +61,11 @@ After having added your integration, you can add more recipients, if needed. Cli
 
 ## Usage
 
+Die Whatsigram Integration erstellt Empfänger Entities, an welche Standard Notifications gesendet werden können. Eine Nachricht zu versenden wird in Home Assistant typischerwise als Aktion in einer Automation verwendet. In unserer Automation klicken wir also auf _Add action_, dann auf _Notifications_ und wählen die Aktion _Send a notification messsage_. Im Feld _Message_ geben wir dann unsere nachricht ein und als _Target_ klicken wir auf _Choose entity_ und wählen einen (oder mehrere) Whatsigram Empfänger aus.
+
+The Whatsigram integration creates recipient entities to which standard notifications can be sent. In Home Assistant, sending a message is typically used as an action in an automation.
+
+In your automation, click on _Add action_, then on _Notifications,_ and select the action _Send a notification message_. In the _Message_ field, enter your message, and as _Target_, click on _Choose entity_ and select one (or more) Whatsigram recipients. Then save your action.
+
+
 
