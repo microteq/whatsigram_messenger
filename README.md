@@ -84,6 +84,7 @@ So in your automation, click on _Add action_, then on _Notifications,_ and selec
 <br />
 ## Sponsorship
 
+
 If my Home Assistant integration has been helpful to you, I’d be grateful for your support. Sponsorship helps me keep the project going, improve features, and fix any issues that arise. Your contribution goes a long way in making the project better for everyone.
 
 Thanks for considering!
