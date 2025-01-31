@@ -90,7 +90,7 @@ This integration is published under the GNU General Public License v3.0.
 
 ## Attribution
 
-This integration uses the [CallMeBot](https://www.callmebot.com/) notification service as a foundation, which is kindly provided to the community free of charge.
+This integration is based on the [CallMeBot](https://www.callmebot.com/) notification service, which is kindly provided to the community free of charge.
 <br />
 <br />
 <br />
@@ -99,7 +99,6 @@ This integration uses the [CallMeBot](https://www.callmebot.com/) notification s
 <br />
 
 ## About sponsorship
-
 
 If this Home Assistant integration has been helpful to you, I’d be grateful for your support. Sponsorship helps me keep the project going, improve features, and fix any issues that arise. Your contribution goes a long way in making the project better for everyone.
 
