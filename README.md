@@ -40,8 +40,15 @@ For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog
 ### HACS (recommended)
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=mariusz-ostoja-swierczynski&amp;repository=tech-controllers&amp;category=integration" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store."></a>
 
+This is the recommended installation method.
+
+- Search for and install the Whatsigram Messenger from HACS
+- Restart Home Assistant
+
 ### Manual
-Using the tool of choice open the directory (folder) for your HA configuration (where you find configuration.yaml).
+- Download the latest release
+- Copy the contents of custom_components into the <config directory>/custom_components directory of your Home Assistant installation
+- Restart Home Assistant
 
 Download whatsigram.zip asset from latest release
 
