@@ -1,5 +1,3 @@
-<img style="text-alignment: center" src="/assets/images/icon.png" width="32" /> 
-
 # Whatsigram Messenger: Integration for Home Assistant
 **Sending messages from Home Assistant to Whatsapp, Signal or Telegram.**
 
