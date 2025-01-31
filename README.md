@@ -33,7 +33,9 @@ Du kannst versuchen, in deiner Telegram App den Text **/start** an **@CallMeBot_
 
 For more details, please refer to the [CallMeBot](https://www.callmebot.com/blog/telegram-text-messages/) website.
 
+
 ## Installation
+
 
 ## Configuration
 
@@ -49,7 +51,8 @@ In the URL field, copy the exact URL as you received it from CallMeBot in respon
 
 ### Telegram
 
-Copy the following URL into the URL field **https://api.callmebot.com/text.php?user=_ _@yourusername_ _&text=Text** and replace @yourusername with your Telegram user name.
+Copy the following URL into the URL field **https://api.callmebot.com/text.php?user=@yourusername&text=Text** and replace @yourusername with your Telegram user name.
+
 
 ## Usage
 
