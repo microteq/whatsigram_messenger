@@ -82,7 +82,7 @@ So in your automation, click on _Add action_, then on _Notifications,_ and selec
 <br />
 <br />
 <br />
----
+<br />
 
 ## Sponsorship
 
