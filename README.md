@@ -47,14 +47,8 @@ This is the recommended installation method.
 
 ### Manual
 - Download the latest release
-- Copy the contents of custom_components into the <config directory>/custom_components directory of your Home Assistant installation
+- Copy the contents of custom_components into the /config/custom_components directory of your Home Assistant installation
 - Restart Home Assistant
-
-Download whatsigram.zip asset from latest release
-
-Unzip into custom_components/whatsigram. If the directory doesnt exist, create it.
-
-Restart Home Assistant
 <br>
 <br>
 ## Configuration
