@@ -24,6 +24,3 @@
 
 #Python
 __pycache__
-
-#Symlink
-custom_components/whatsigram_messenger
