@@ -100,9 +100,8 @@ This integration is based on the [CallMeBot](https://www.callmebot.com/) notific
 
 ## About sponsorship
 
-If this Home Assistant integration has been helpful to you, I’d be grateful for your support. Sponsorship helps me keep the project going, improve features, and fix any issues that arise. Your contribution goes a long way in making the project better for everyone.
+If this Home Assistant integration is helpful to you, please consider supporting this project. Sponsorship helps keep the project going, improve features, and fix any issues that arise. Your contribution goes a long way in making the project better for everyone.
 
-Thanks for considering!
 
 [![Sponsor me on GitHub](https://img.shields.io/badge/sponsor-me%20on%20GitHub-green)](https://github.com/sponsors/microteq)
 
