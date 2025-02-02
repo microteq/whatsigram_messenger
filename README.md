@@ -6,10 +6,9 @@ The Whatsigram Messenger is an integration for Home assistant allowing you to se
 <br />
 
 ## Features
-- Send WhatsApp messages directly from Home Assistant.
-- Send Signal messages directly from Home Assistant.
-- Send Telegram messages directly from Home Assistant.
+- Send WhatsApp, Signal or Telegram messages directly from Home Assistant.
 - UI-based configuration for easy setup.
+- Backward compatibility with YAML configuration.
 - Supports sending messages to multiple recipients.
 - Options flow to update configurations without reinstallation.
 - Detailed error handling and logging for troubleshooting.
