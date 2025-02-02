@@ -105,4 +105,10 @@ class WebAPI:
             except aiohttp.ClientError as err:
                 _LOGGER.error("Unable to connect to the CallMeBot service: %s", err)
                 return ERROR_CONNECTION_FAILED
+            except TimeoutError as ex:
+                _LOGGER.error("Request to CallMeBot service timed out: %s", ex)
+                return ERROR_TEMP_UNAVAILABLE
+            except Exception as ex:
+                _LOGGER.error("An unexpected error occurred: %s", ex)
+                return ERROR_UNKNOWN
         return "ok"
