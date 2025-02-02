@@ -94,7 +94,8 @@ In your automation, click on _Add action_, then on _Notifications,_ and select t
 
 ### Writing YAML
 
-`alias: Send Test Message
+```
+alias: Send Test Message
 description: ""
 triggers: []
 conditions: []
@@ -104,7 +105,8 @@ actions:
       message: "This is a test message from Home Assistant"
     target:
       entity_id: notify.whatsigram_recipient_1
-mode: single`
+mode: single
+```
 <br />
 <br />
 
