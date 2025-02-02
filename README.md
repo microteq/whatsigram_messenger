@@ -16,7 +16,7 @@ The Whatsigram Messenger is an integration for Home assistant allowing you to se
 
 ## Preparing your mobile phone
 
-Die Vorbereitung auf deinem Mobiltelefon ist für jede App ein wenig anders, aber immer sehr einfach zu machen. Sie dient dazu, CallMeBot zu erlauben, dir Nachrichten zu senden und deinen Account vor Spam zu schützen.
+The setup on your mobile phone varies slightly for each app but is always very easy to do. It allows CallMeBot to send you messages and protects your account from spam.
 
 ### Whatsapp
 
