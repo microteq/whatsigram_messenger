@@ -39,6 +39,10 @@ class WebAPI:
         """Initialize the class."""
         self.hass = hass
 
+    @property
+    def test(self):
+        """Check if relay is available."""
+        return "ok"
 
     # ***********************************************************************************************************************************************
     # Purpose:  Send a message

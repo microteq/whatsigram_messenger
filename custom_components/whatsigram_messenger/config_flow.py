@@ -11,15 +11,19 @@ from homeassistant.core import callback
 from homeassistant.data_entry_flow import FlowResult
 
 from .const import CONF_NAME, CONF_TEST, CONF_URL, DOMAIN, GLOBAL_API
+from .web_api import WebAPI
 
 
 # ***********************************************************************************************************************************************
 # Purpose:  Send a test message
 # History:  D.Geisenhoff    30-JAN-2025     Created
 # ***********************************************************************************************************************************************
-async def _test_connection(self, user_input) -> str:
+async def _test_connection(hass, user_input) -> str:
     """Test the connection with the provided user input."""
-    api = self.hass.data[DOMAIN][GLOBAL_API]
+    if DOMAIN not in hass.data:
+        hass.data.setdefault(DOMAIN, {})
+        hass.data[DOMAIN][GLOBAL_API] = WebAPI(hass)
+    api = hass.data[DOMAIN][GLOBAL_API]
     return await api.send_message("Test message", user_input[CONF_URL])
 
 
@@ -49,7 +53,7 @@ class WhatsigramConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         result = "ok"
         if user_input.get("test_connection"):
             # Send a test message
-            result = await _test_connection(self, user_input)
+            result = await _test_connection(self.hass, user_input)
         if result == "ok":
             return self.async_create_entry(title=user_input[CONF_NAME], data=user_input)
         errors["base"] = result
@@ -129,7 +133,7 @@ class WhatsigramOptionsFlow(config_entries.OptionsFlow):
         result = "ok"
         if user_input.get("test_connection"):
             # Send a test message
-            result = await _test_connection(self, user_input)
+            result = await _test_connection(self.hass, user_input)
         if result == "ok":
             # merge user_input and config_entry.data into new dictionary
             new_data = {**self._config_entry.data, **user_input}

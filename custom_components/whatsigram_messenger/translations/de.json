@@ -7,7 +7,7 @@
                 "data": {
                     "name": "Name oder Telefonnummer des Empfängers",
                     "url": "Die von CallMeBot erhaltene URL",
-                    "test_connection": "Eine testnachricht senden"
+                    "test_connection": "Eine Testnachricht senden"
                 }
             }
         },

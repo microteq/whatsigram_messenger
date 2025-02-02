@@ -19,8 +19,8 @@ from .web_api import WebAPI
 # # Purpose:  Setup when Home Assistant starts, can run after or before setup_entry
 # # History:  D.Geisenhoff    29-JAN-2025     Cfreated
 # # ***********************************************************************************************************************************************
-# async def async_setup(hass, config):
-#     """Set up the component."""
+#async def async_setup(hass, config):
+#    """Set up the component."""
 
 #     if DOMAIN not in hass.data:
 #         hass.data.setdefault(DOMAIN, {})
@@ -28,7 +28,7 @@ from .web_api import WebAPI
 #     # register action call
 #   #  hass.services.async_register(DOMAIN, "send_message", api.send_message)
 #     # Return boolean to indicate that initialization was successful.
-#     return True
+#    return True
 
 
 # ***********************************************************************************************************************************************
