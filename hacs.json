@@ -1,6 +1,4 @@
 {
     "name": "Whatsigram Messenger",
-    "content_in_root": false,
-    "zip_release": true,
-    "filename": "v0.1.1.zip"
+    "content_in_root": false
 }
