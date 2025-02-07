@@ -7,14 +7,34 @@ Author: D. Geisenhoff
 Created: 24-JAN-2025
 """
 
+import voluptuous as vol
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers import entity_registry as er
 
-from .const import CONF_NAME, DOMAIN, GLOBAL_API, GLOBAL_COUNTER, PLATFORMS
+from .const import (
+    CONF_NAME,
+    CONF_TEST,
+    CONF_URL,
+    DOMAIN,
+    GLOBAL_API,
+    GLOBAL_COUNTER,
+    PLATFORMS,
+)
 from .web_api import WebAPI
 
+CONFIG_SCHEMA = vol.Schema(
+    {
+        DOMAIN: vol.Schema(
+            {
+                vol.Required(CONF_NAME): str,
+                vol.Required(CONF_URL): str,
+                vol.Optional(CONF_TEST): bool,
+            }
+        )
+    }
+)
 
 # ***********************************************************************************************************************************************
 # Purpose:  Setup when Home Assistant starts, can run after or before setup_entry
