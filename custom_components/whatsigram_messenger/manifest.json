@@ -2,12 +2,12 @@
     "domain": "whatsigram_messenger",
     "name": "Messenger for Whatsapp, Signal and Telegram",
     "config_flow": true,
-    "iot_class": "local_push",
+    "iot_class": "cloud_push",
     "integration_type": "service",
     "documentation": "https://github.com/microteq/whatsigram_messenger",
     "issue_tracker": "https://github.com/microteq/whatsigram_messenger/issues",
     "requirements": ["aiohttp"],
     "dependencies": [],
     "codeowners": ["@microteq"],
-    "version": "0.1.5"
+    "version": "0.1.6"
 }

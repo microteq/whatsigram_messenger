@@ -84,6 +84,7 @@ class WebAPI:
                                # Telegram: user permission denied
                                 _LOGGER.error("Permission denied. You need to authorize CallMeBot to contact this user.")
                                 return ERROR_PERMISSION_DENIED
+                            _LOGGER.error("Unknown error: %s", content)
                             return ERROR_UNKNOWN
                         if response.status == 503:
                             # Wait if service is not available (CallMeBot does not allow too many messages at a time)

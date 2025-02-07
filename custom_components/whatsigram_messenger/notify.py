@@ -26,7 +26,8 @@ from .const import CONF_NAME, CONF_URL, DOMAIN, GLOBAL_COUNTER
 # ***********************************************************************************************************************************************
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback) -> None:
     """Set up the CallMeBot api."""
-    async_add_entities([WhatsigramEntity(hass,entry)])
+    entity = WhatsigramEntity(hass,entry)
+    async_add_entities([entity])
 
 
 # ***********************************************************************************************************************************************
@@ -40,11 +41,7 @@ class WhatsigramEntity(Entity):
     # Purpose:  Initialize a recipient entity
     # History:  D.Geisenhoff    28-JAN-2025     Created
     # ***********************************************************************************************************************************************
-    def __init__(
-        self,
-        hass: HomeAssistant,
-        entry: ConfigEntry,
-    ) -> None:
+    def __init__(self, hass: HomeAssistant, entry: ConfigEntry) -> None:
         """Initialize notification target."""
         self.entry = entry
         self.entity_id = f"notify.whatsigram_recipient_{hass.data[DOMAIN][GLOBAL_COUNTER]}"
@@ -57,7 +54,6 @@ class WhatsigramEntity(Entity):
         self._attr_icon  = "mdi:message-outline"
         self._attr_device_info = DeviceInfo(
             identifiers={(DOMAIN, entry.entry_id)},
-            manufacturer="microteq / CallMeBot",
             model="Whatsigram Messenger",
             name = "Whatsigram " + entry.data[CONF_NAME]
         )
