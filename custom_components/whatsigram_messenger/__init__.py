@@ -33,7 +33,8 @@ CONFIG_SCHEMA = vol.Schema(
                 vol.Optional(CONF_TEST): bool,
             }
         )
-    }
+    },
+    extra=vol.ALLOW_EXTRA,  # Allow additional keys in YAML
 )
 
 # ***********************************************************************************************************************************************
