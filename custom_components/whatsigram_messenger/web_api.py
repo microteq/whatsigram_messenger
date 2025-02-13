@@ -6,6 +6,7 @@ from urllib.parse import quote_plus
 
 import aiohttp
 from aiohttp import ClientTimeout
+import requests
 
 from homeassistant.core import HomeAssistant
 
@@ -61,7 +62,7 @@ class WebAPI:
         async with aiohttp.ClientSession() as session:
             try:
                 for i in range(11):
-                    async with session.get(url_with_message, timeout=ClientTimeout(connect=3)) as response:
+                    async with session.get(url_with_message, timeout=ClientTimeout(connect=30)) as response:
                         if response.status == 200:
                             content = await response.text()
                             content = content.lower()
