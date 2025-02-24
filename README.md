@@ -1,12 +1,12 @@
 # Home Assistant Whatsigram Messenger
 **Sending messages from Home Assistant to Whatsapp, Signal or Telegram.**
 
-The Whatsigram Messenger is an integration for Home assistant allowing you to send messages, notifications or alerts to your preferred messenger on your mobile phone. Whatsigram can send messeges to the Whatsapp, Signal or Telegram App using the free CallMeBot service.
+The Whatsigram Messenger is an integration for Home assistant allowing you to send messages, notifications or alerts to your preferred messenger on your mobile phone. Whatsigram can send messeges to your Whatsapp, Signal or Telegram App using the free CallMeBot service.
 <br />
 <br />
 
 ## Features
-- Send WhatsApp, Signal or Telegram messages directly from Home Assistant.
+- Send Home Assistant alerts, notifications and messaged to your WhatsApp, Signal or Telegram App on your mobile phone.
 - UI-based configuration for easy setup.
 - Backward compatibility with YAML configuration.
 - Supports sending messages to multiple recipients.
