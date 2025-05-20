@@ -19,6 +19,8 @@ The Whatsigram Messenger is an integration for Home assistant allowing you to se
 ### HACS (recommended)
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=microteq&amp;repository=whatsigram_messenger&amp;category=integration" target="_blank" rel="noreferrer noopener"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open your Home Assistant instance and open a repository inside the Home Assistant Community Store."></a>
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=microteq&repository=whatsigram_messenger)
+
 This is the recommended installation method.
 
 - Search for and install the Whatsigram Messenger integration from HACS
