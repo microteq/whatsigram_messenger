@@ -1,3 +1,9 @@
+[![License](https://img.shields.io/github/license/microteq/whatsigram_messenger.svg)](LICENSE)
+[![HACS Supported](https://img.shields.io/badge/HACS-Supported-green.svg)](https://github.com/custom-components/hacs)
+![GitHub Activity](https://img.shields.io/github/commit-activity/y/microteq/whatsigram_messenger.svg?label=commits)
+[![Stable](https://img.shields.io/github/release/microteq/whatsigram_messenger.svg)](https://github.com/microteq/whatsigram_messenger/releases/latest)
+<!--![Downloads](https://img.shields.io/github/downloads/microteq/whatsigram_messenger/total)-->
+
 # Home Assistant Whatsigram Messenger
 **Sending messages from Home Assistant to Whatsapp, Signal or Telegram.**
 
